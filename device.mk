@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/fleur
+LOCAL_PATH := device/xiaomi/viva
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.gatekeeper@1.0-service
 
 PRODUCT_COPY_FILES += \
-	$(OUT_DIR)/target/product/fleur/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/android.hardware.gatekeeper@1.0-service
+	$(OUT_DIR)/target/product/viva/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/android.hardware.gatekeeper@1.0-service
 
 # Additional Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \

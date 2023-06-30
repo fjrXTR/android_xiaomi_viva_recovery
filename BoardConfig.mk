@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/fleur
+DEVICE_PATH := device/xiaomi/viva
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
